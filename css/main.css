@@ -1,75 +1,122 @@
-.header{
-    margin-top: 50px;
+ .header {
+   margin-top: 50px;
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.rw-head{
 
-.left-image {
+    align-items: center; 
+}
+.col-6{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.left-image{
     padding-left: 0;
 }
-.right-text h1 {
-    font-size: 14px;
+.left-image img{
+    width: 100%;
+    display: block;
+}
+.right-text{
+    background-color: #f5f5f5;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.right-text h2{
+    margin-bottom: 20px;
+}
+.right-text a{
+    display: inline-block;
+    padding:8px 20px;
+    color: #fff;
+    background-color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+
+/* form */
+.contact-head {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contact-head h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
     font-weight: 700;
+    margin: 0;
     color: #4154f1;
     text-transform: uppercase;
-
+    font-family: "Nunito", sans-serif;
 }
 
-.right-text h2 {
-    font-size: 20px;
+.contact-head p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
     font-weight: 700;
     color: #012970;
-    padding-top: 10px;
 }
 
-.right-text p {
-    line-height: 22px;
+.form-right {
+    background: #fafbff;
+    padding: 30px;
+    height: 100%;
+}
+
+.info-box {
     color: #444444;
-    padding-top: 10px;
-    font-size: 15px;
-
+    background: #fafbff;
+    padding: 30px;
 }
-.about-btn a {
+
+.info-box i {
+    font-size: 38px;
     line-height: 0;
-    padding: 15px 40px;
-    border-radius: 4px;
-    transition: 0.5s;
-    color: #fff;
-    text-decoration: none;
+    color: #4154f1;
+}
+
+.info-box h3 {
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+
+}
+
+.info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.text-center button {
     background: #4154f1;
-    box-shadow: 0px 5px 25px rgb(65 84 241 / 30%);
-}
-
-.about-btn a span {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-
-.about-btn i {
-    margin-left: 5px;
-    font-size: 18px;
-    transition: 0.3s;
-}
-.about-btn {
-    margin-top: 30px;
-}
-
-
-.right-text {
-    background-color: #f6f9ff;
-    font-weight: 500;
-    line-height: 1.2;
-    font-family: "Nunito", sans-serif;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 40px;
-
-}
-
-.Left-image {
-width: 50%;
-
-}
-.img-fluid{
-    height: auto;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
 }
