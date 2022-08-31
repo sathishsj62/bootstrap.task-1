@@ -20,7 +20,7 @@
         width: 100%;
     }
     .right-text{
-        background-image: linear-gradient(rgb(158 158 158 / 49%), #9e9e9eb3),url(./images/about.jpg);
+        background-image: linear-gradient(rgb(158 158 158 / 49%), #9e9e9eb3),url(../images/about.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
