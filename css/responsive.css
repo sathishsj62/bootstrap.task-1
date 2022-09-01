@@ -43,4 +43,14 @@
         width: 1140px;
     }
 }  
+/* /pricing// */
+
+@media (min-width: 1024px){
+ .pricing-head p {
+    width: 50%;
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+}
+}
+
 
