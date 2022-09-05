@@ -341,3 +341,158 @@
      height: 100%;
      box-shadow: rgb(149 157 165 / 20%) 0px 8px 14px;
  }
+
+ .box {
+     border: 1px solid crimson;
+     height: 200px;
+
+ }
+
+ /* task-5 */
+
+ .pricing-head-1 {
+    text-align: center;
+    padding-bottom: 75px;
+ }
+ .flex-box{
+    display: flex;
+    
+ }
+
+ .pricing-head-1 h2 {
+     font-size: 32px;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+     padding-bottom: 20px;
+     position: relative;
+     font-family: "Poppins", sans-serif;
+     color: #213b52;
+ }
+ /* .pricing-head-1 h2::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+ } */
+ .pricing-head-1 h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #fdc134;
+    bottom: 0;
+    left: calc(50% - 20px);
+ }
+
+
+
+ .pri-box-1 {
+     padding: 40px;
+   
+     box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+     background: #fff;
+     text-align: center;
+     position: relative;
+ }
+ .pri-box-2 {
+     padding: 40px;
+    
+     box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+     background: #fff;
+     text-align: center;
+     position: relative;
+ }
+ .pri-box-1 h3{
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+ .pri-box-1 h4{
+    font-size: 46px;
+    color: #fdc134;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 25px;
+ }
+.pri-box-1 h4 span{
+    color: #bababa;
+    font-size: 18px;
+    display: block;
+}
+.pri-box-1 ul{
+    padding: 0;
+    list-style: none;
+    color: #999;
+    text-align: left;
+    line-height: 20px;
+}
+.pri-box-1 ul .icofont-check-alt{
+    color: #fdc134;
+    font-size: 18px;
+    padding-right: 4px;
+}
+.pri-box-1 ul li {
+    padding-bottom: 12px;
+}
+.nan span{
+    text-decoration: line-through;
+}
+.pri-btn-1 {
+    margin-top: 10px;
+}
+.pri-btn-1{
+    background: #213b52;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+.pri-btn-1 a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.pri-btn-2 {
+    margin-top: 10px;
+}
+.pri-btn-2{
+    background: #fdc134;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+
+}
+.pri-btn-2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.Featured-box{
+    display: inline-block;
+    position: absolute;
+    top: -11px;
+    left: 134px;
+    background: #fdc134;
+    color: #fff;
+    line-height: 1;
+    border-radius: 50px;
+    padding: 4px 20px 5px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+
+} 
+.feat-box{
+     border: 1px solid #fdc134;
+}
