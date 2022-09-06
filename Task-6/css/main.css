@@ -1,7 +1,16 @@
-/* .header{
-    background: #fff;
-    transition: all 0.5s;
-    z-index: 997;
-    padding: 15px 0;
-    box-shadow: 0px 0 18px rgb(55 66 59 / 8%);
-} */
+.cont-head{
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.cont-head h1 a{
+    color: #5fcf80;
+    text-decoration: none;
+    vertical-align: sub;
+}
+.nav-box{
+    display: flex;
+}
