@@ -51,6 +51,10 @@
     margin: 15px auto 0 auto;
     font-weight: 600;
 }
+
+@media (min-width: 768px){
+.banner {
+    height: 100vh;
 }
 
 
