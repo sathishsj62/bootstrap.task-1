@@ -7,15 +7,17 @@
     color: #5fcf80;
     font-weight: bold;
 }
+
 .nav-header {
     background-color: #f8f9fa;
 }
 
 .navbar-nav li a {
     font-weight: bold;
-   color:  #6c757d;
+    color: #6c757d;
 }
-.navbar-nav li a:hover{
+
+.navbar-nav li a:hover {
     color: #5fcf80;
 }
 
@@ -33,7 +35,7 @@ a.get-btn {
 .banner {
     width: 100%;
     height: 80vh;
-    background-image: url(../images/hero-bg.jpg) ;
+    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
 
@@ -127,9 +129,9 @@ button {
 }
 
 .text-center {
-    
+
     height: 100%;
-  
+
 }
 
 .choose-box .card-body {
@@ -139,8 +141,9 @@ button {
 .choose-box .card-body p {
     color: #fff;
 }
-.choose-btn{
-   text-align: center;
+
+.choose-btn {
+    text-align: center;
     margin: 30px 0;
 }
 
@@ -196,6 +199,7 @@ button {
 .features {
     margin-top: 45px;
 }
+
 .feat-box {
     display: flex;
     align-items: center;
@@ -215,7 +219,7 @@ button {
 }
 
 .cour-box {
-        border: 1px solid #eef0ef;
+    border: 1px solid #eef0ef;
 }
 
 .courses-head {
@@ -318,9 +322,11 @@ button {
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.pop-box{
-    border: 1px solid #eef0ef ;
+
+.pop-box {
+    border: 1px solid #eef0ef;
 }
+
 .pop-content {
     text-align: center;
 }
@@ -339,14 +345,16 @@ button {
     padding-top: 5px;
 
 }
-.pop-content p{
+
+.pop-content p {
     font-size: 14px;
     font-style: italic;
     color: #aaaaaa;
     line-height: 20px;
     padding: 10px;
 }
-.social{
+
+.social {
     margin-top: 15px;
     font-size: 20px;
     color: #7e9486;
@@ -354,44 +362,51 @@ button {
 }
 
 /* footer */
-.footer-haed{
+.footer-haed {
     padding: 30px;
 }
-.footer{
+
+.footer {
     margin-top: 65px;
     background: #f9faf9;
 }
-.foot-box h3{
+
+.foot-box h3 {
     font-size: 30px;
     font-weight: 500;
     padding-bottom: 10px;
 
 }
-.foot-box p{
+
+.foot-box p {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 0;
     font-family: sans-serif;
     color: #777777;
 }
-.ter-box h2{
+
+.ter-box h2 {
     font-size: 16px;
     font-weight: bold;
     color: #444444;
     position: relative;
     padding-bottom: 12px;
 }
-.ter-box ul li{
+
+.ter-box ul li {
     list-style: none;
     padding-top: 15px;
     font-size: 15px;
 
 }
-.ter-box ul li i{
+
+.ter-box ul li i {
     color: #5fcf80;
     font-weight: bold;
 }
-.from-box h2{
+
+.from-box h2 {
     font-size: 16px;
     font-weight: bold;
     color: #444444;
@@ -406,8 +421,9 @@ form.from {
     background: #fff;
     border-radius: 25px;
     overflow: hidden;
-   
+
 }
+
 button#basic-addon2 {
     border-radius: 25px;
     margin-left: 1px;
@@ -426,22 +442,27 @@ button#basic-addon2 {
     font-size: 14px;
     background: #eef0ef;
 }
-.right-box{
+
+.right-box {
     padding: 30px;
 }
+
 .copy-icon {
-    text-align: end;
+    /* text-align: end; */
     font-size: 20px;
 }
+
 .copy-meddle {
     padding-bottom: 10px;
 }
-.copy-low span{
+
+.copy-low span {
     color: #5fcf80;
 
 }
-.copy-icon i{
-  
+
+.copy-icon i {
+
     font-size: 18px;
     display: inline-block;
     background: #5fcf80;
@@ -452,5 +473,27 @@ button#basic-addon2 {
     text-align: center;
     width: 36px;
     height: 36px;
-    
+
+}
+
+/* top back */
+.back-top {
+   
+    text-decoration: none;
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+    right: 15px;
+    bottom: 15px;
+    background: #5fcf80;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.back-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+
 }
