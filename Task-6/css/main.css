@@ -448,8 +448,11 @@ button#basic-addon2 {
 }
 
 .copy-icon {
-    /* text-align: end; */
+    text-align: right;
     font-size: 20px;
+}
+.copy-icon a{
+       text-decoration: none;
 }
 
 .copy-meddle {
